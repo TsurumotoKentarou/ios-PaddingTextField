@@ -8,12 +8,10 @@
 import UIKit
 
 class PaddingTextField: UITextField {
-    private let dx: CGFloat
-    private let dy: CGFloat
+    private let edgeInsets: UIEdgeInsets
     
-    init(dx: CGFloat, dy: CGFloat) {
-        self.dx = dx
-        self.dy = dy
+    init(edgeInsets: UIEdgeInsets) {
+        self.edgeInsets = edgeInsets
         super.init(frame: .zero)
     }
     
@@ -22,14 +20,14 @@ class PaddingTextField: UITextField {
     }
     
     override func textRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.insetBy(dx: dx, dy: dy)
+        return bounds.inset(by: edgeInsets)
     }
     
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.insetBy(dx: dx, dy: dy)
+        return bounds.inset(by: edgeInsets)
     }
     
     override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.insetBy(dx: dx, dy: dy)
+        return bounds.inset(by: edgeInsets)
     }
 }
