@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A1DECA2615828C00A44A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DEC92615828C00A44A63 /* AppDelegate.swift */; };
+		03A1DECC2615828C00A44A63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DECB2615828C00A44A63 /* SceneDelegate.swift */; };
+		03A1DECE2615828C00A44A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DECD2615828C00A44A63 /* ViewController.swift */; };
+		03A1DED12615828C00A44A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A1DECF2615828C00A44A63 /* Main.storyboard */; };
+		03A1DED32615829100A44A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A1DED22615829100A44A63 /* Assets.xcassets */; };
+		03A1DED62615829100A44A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A1DED42615829100A44A63 /* LaunchScreen.storyboard */; };
+		03A1DEE12615829200A44A63 /* PaddingTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DEE02615829200A44A63 /* PaddingTextFieldTests.swift */; };
+		03A1DEEC2615829200A44A63 /* PaddingTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DEEB2615829200A44A63 /* PaddingTextFieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03A1DEDD2615829200A44A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03A1DEBE2615828C00A44A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03A1DEC52615828C00A44A63;
+			remoteInfo = PaddingTextField;
+		};
+		03A1DEE82615829200A44A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03A1DEBE2615828C00A44A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03A1DEC52615828C00A44A63;
+			remoteInfo = PaddingTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A1DEC62615828C00A44A63 /* PaddingTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaddingTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A1DEC92615828C00A44A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03A1DECB2615828C00A44A63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03A1DECD2615828C00A44A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03A1DED02615828C00A44A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03A1DED22615829100A44A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03A1DED52615829100A44A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03A1DED72615829100A44A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A1DEDC2615829200A44A63 /* PaddingTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddingTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A1DEE02615829200A44A63 /* PaddingTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextFieldTests.swift; sourceTree = "<group>"; };
+		03A1DEE22615829200A44A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A1DEE72615829200A44A63 /* PaddingTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddingTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A1DEEB2615829200A44A63 /* PaddingTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextFieldUITests.swift; sourceTree = "<group>"; };
+		03A1DEED2615829200A44A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A1DEC32615828C00A44A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A1DED92615829200A44A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A1DEE42615829200A44A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A1DEBD2615828C00A44A63 = {
+			isa = PBXGroup;
+			children = (
+				03A1DEC82615828C00A44A63 /* PaddingTextField */,
+				03A1DEDF2615829200A44A63 /* PaddingTextFieldTests */,
+				03A1DEEA2615829200A44A63 /* PaddingTextFieldUITests */,
+				03A1DEC72615828C00A44A63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03A1DEC72615828C00A44A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03A1DEC62615828C00A44A63 /* PaddingTextField.app */,
+				03A1DEDC2615829200A44A63 /* PaddingTextFieldTests.xctest */,
+				03A1DEE72615829200A44A63 /* PaddingTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03A1DEC82615828C00A44A63 /* PaddingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				03A1DEC92615828C00A44A63 /* AppDelegate.swift */,
+				03A1DECB2615828C00A44A63 /* SceneDelegate.swift */,
+				03A1DECD2615828C00A44A63 /* ViewController.swift */,
+				03A1DECF2615828C00A44A63 /* Main.storyboard */,
+				03A1DED22615829100A44A63 /* Assets.xcassets */,
+				03A1DED42615829100A44A63 /* LaunchScreen.storyboard */,
+				03A1DED72615829100A44A63 /* Info.plist */,
+			);
+			path = PaddingTextField;
+			sourceTree = "<group>";
+		};
+		03A1DEDF2615829200A44A63 /* PaddingTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				03A1DEE02615829200A44A63 /* PaddingTextFieldTests.swift */,
+				03A1DEE22615829200A44A63 /* Info.plist */,
+			);
+			path = PaddingTextFieldTests;
+			sourceTree = "<group>";
+		};
+		03A1DEEA2615829200A44A63 /* PaddingTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03A1DEEB2615829200A44A63 /* PaddingTextFieldUITests.swift */,
+				03A1DEED2615829200A44A63 /* Info.plist */,
+			);
+			path = PaddingTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03A1DEC52615828C00A44A63 /* PaddingTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A1DEF02615829200A44A63 /* Build configuration list for PBXNativeTarget "PaddingTextField" */;
+			buildPhases = (
+				03A1DEC22615828C00A44A63 /* Sources */,
+				03A1DEC32615828C00A44A63 /* Frameworks */,
+				03A1DEC42615828C00A44A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaddingTextField;
+			productName = PaddingTextField;
+			productReference = 03A1DEC62615828C00A44A63 /* PaddingTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03A1DEDB2615829200A44A63 /* PaddingTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A1DEF32615829200A44A63 /* Build configuration list for PBXNativeTarget "PaddingTextFieldTests" */;
+			buildPhases = (
+				03A1DED82615829200A44A63 /* Sources */,
+				03A1DED92615829200A44A63 /* Frameworks */,
+				03A1DEDA2615829200A44A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03A1DEDE2615829200A44A63 /* PBXTargetDependency */,
+			);
+			name = PaddingTextFieldTests;
+			productName = PaddingTextFieldTests;
+			productReference = 03A1DEDC2615829200A44A63 /* PaddingTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03A1DEE62615829200A44A63 /* PaddingTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A1DEF62615829200A44A63 /* Build configuration list for PBXNativeTarget "PaddingTextFieldUITests" */;
+			buildPhases = (
+				03A1DEE32615829200A44A63 /* Sources */,
+				03A1DEE42615829200A44A63 /* Frameworks */,
+				03A1DEE52615829200A44A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03A1DEE92615829200A44A63 /* PBXTargetDependency */,
+			);
+			name = PaddingTextFieldUITests;
+			productName = PaddingTextFieldUITests;
+			productReference = 03A1DEE72615829200A44A63 /* PaddingTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03A1DEBE2615828C00A44A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					03A1DEC52615828C00A44A63 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					03A1DEDB2615829200A44A63 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 03A1DEC52615828C00A44A63;
+					};
+					03A1DEE62615829200A44A63 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 03A1DEC52615828C00A44A63;
+					};
+				};
+			};
+			buildConfigurationList = 03A1DEC12615828C00A44A63 /* Build configuration list for PBXProject "PaddingTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03A1DEBD2615828C00A44A63;
+			productRefGroup = 03A1DEC72615828C00A44A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03A1DEC52615828C00A44A63 /* PaddingTextField */,
+				03A1DEDB2615829200A44A63 /* PaddingTextFieldTests */,
+				03A1DEE62615829200A44A63 /* PaddingTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03A1DEC42615828C00A44A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A1DED62615829100A44A63 /* LaunchScreen.storyboard in Resources */,
+				03A1DED32615829100A44A63 /* Assets.xcassets in Resources */,
+				03A1DED12615828C00A44A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A1DEDA2615829200A44A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A1DEE52615829200A44A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A1DEC22615828C00A44A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A1DECE2615828C00A44A63 /* ViewController.swift in Sources */,
+				03A1DECA2615828C00A44A63 /* AppDelegate.swift in Sources */,
+				03A1DECC2615828C00A44A63 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A1DED82615829200A44A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A1DEE12615829200A44A63 /* PaddingTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A1DEE32615829200A44A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A1DEEC2615829200A44A63 /* PaddingTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03A1DEDE2615829200A44A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03A1DEC52615828C00A44A63 /* PaddingTextField */;
+			targetProxy = 03A1DEDD2615829200A44A63 /* PBXContainerItemProxy */;
+		};
+		03A1DEE92615829200A44A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03A1DEC52615828C00A44A63 /* PaddingTextField */;
+			targetProxy = 03A1DEE82615829200A44A63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03A1DECF2615828C00A44A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A1DED02615828C00A44A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03A1DED42615829100A44A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A1DED52615829100A44A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03A1DEEE2615829200A44A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03A1DEEF2615829200A44A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03A1DEF12615829200A44A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79XFQ8S9YT;
+				INFOPLIST_FILE = PaddingTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsurumotokentaro.PaddingTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03A1DEF22615829200A44A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79XFQ8S9YT;
+				INFOPLIST_FILE = PaddingTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsurumotokentaro.PaddingTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03A1DEF42615829200A44A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79XFQ8S9YT;
+				INFOPLIST_FILE = PaddingTextFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsurumotokentaro.PaddingTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaddingTextField.app/PaddingTextField";
+			};
+			name = Debug;
+		};
+		03A1DEF52615829200A44A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79XFQ8S9YT;
+				INFOPLIST_FILE = PaddingTextFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsurumotokentaro.PaddingTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaddingTextField.app/PaddingTextField";
+			};
+			name = Release;
+		};
+		03A1DEF72615829200A44A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79XFQ8S9YT;
+				INFOPLIST_FILE = PaddingTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsurumotokentaro.PaddingTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaddingTextField;
+			};
+			name = Debug;
+		};
+		03A1DEF82615829200A44A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79XFQ8S9YT;
+				INFOPLIST_FILE = PaddingTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsurumotokentaro.PaddingTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaddingTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A1DEC12615828C00A44A63 /* Build configuration list for PBXProject "PaddingTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A1DEEE2615829200A44A63 /* Debug */,
+				03A1DEEF2615829200A44A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A1DEF02615829200A44A63 /* Build configuration list for PBXNativeTarget "PaddingTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A1DEF12615829200A44A63 /* Debug */,
+				03A1DEF22615829200A44A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A1DEF32615829200A44A63 /* Build configuration list for PBXNativeTarget "PaddingTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A1DEF42615829200A44A63 /* Debug */,
+				03A1DEF52615829200A44A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A1DEF62615829200A44A63 /* Build configuration list for PBXNativeTarget "PaddingTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A1DEF72615829200A44A63 /* Debug */,
+				03A1DEF82615829200A44A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03A1DEBE2615828C00A44A63 /* Project object */;
+}
