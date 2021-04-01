@@ -15,6 +15,7 @@
 		03A1DED62615829100A44A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A1DED42615829100A44A63 /* LaunchScreen.storyboard */; };
 		03A1DEE12615829200A44A63 /* PaddingTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DEE02615829200A44A63 /* PaddingTextFieldTests.swift */; };
 		03A1DEEC2615829200A44A63 /* PaddingTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DEEB2615829200A44A63 /* PaddingTextFieldUITests.swift */; };
+		03A1DEFD261582AF00A44A63 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DEFC261582AF00A44A63 /* PaddingTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		03A1DEE72615829200A44A63 /* PaddingTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddingTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A1DEEB2615829200A44A63 /* PaddingTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextFieldUITests.swift; sourceTree = "<group>"; };
 		03A1DEED2615829200A44A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A1DEFC261582AF00A44A63 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				03A1DED22615829100A44A63 /* Assets.xcassets */,
 				03A1DED42615829100A44A63 /* LaunchScreen.storyboard */,
 				03A1DED72615829100A44A63 /* Info.plist */,
+				03A1DEFC261582AF00A44A63 /* PaddingTextField.swift */,
 			);
 			path = PaddingTextField;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A1DECE2615828C00A44A63 /* ViewController.swift in Sources */,
+				03A1DEFD261582AF00A44A63 /* PaddingTextField.swift in Sources */,
 				03A1DECA2615828C00A44A63 /* AppDelegate.swift in Sources */,
 				03A1DECC2615828C00A44A63 /* SceneDelegate.swift in Sources */,
 			);
